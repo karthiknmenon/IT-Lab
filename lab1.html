@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="lab1.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<div class="cont">
+		<form>
+			<h1 class="mt-5">Registration Form</h1>
+			<label for="userid" class="lbl">User Id:
+				<input name="userid" id="uid" type="text" minlength="5" maxlength="12" required>
+			</label><br>
+			<label for="password" class="lbl">Password: 
+				<input name="password" id="psrd" type="password" minlength="7" maxlength="12" required>
+			</label><br>
+			<label for="name" class="lbl">Name:
+				<input name="name" id="name" type="text" minlength="5" maxlength="12" required>
+			</label><br>
+			<label for="Address" class="lbl">Address:
+				<input name="Address" id="addr" type="text">
+			</label><br>
+			<label for="country" class="lbl">Country:
+				<select>
+					<option>Please select a country</option>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+				</select>
+			</label><br>
+			<label for="Zip Code">Zipcode:
+				<input name="Zip Code" id="zc" type="number" required>
+			</label><br>
+			<label for="mail">Email:
+				<input type="email" id="mail"required>
+			</label><br>
+			<label for="sex">Sex:
+				MALE <input name="sex" id="male"type="radio">
+				FEMALE <input name="sex" id="male"type="radio">
+			</label><br>
+			<label for="lang">Language:
+				<input name="lang" id="eng"type="checkbox" checked>English
+				<input name="lang" id="NE"type="checkbox">Non English
+			</label><br>
+			<label for="textarea">About:
+				<textarea name="textarea" id="TA"rows="5" cols="40"></textarea>
+			</label><br>
+			<label for="submit" class="sub">
+				<input type="submit">
+			</label>
+		</form>
+	</div>
+
+
+
+</body>
+</html>
