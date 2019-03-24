@@ -1,0 +1,116 @@
+hr{
+	color:darkgrey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; 
+}
+
+li {
+	position: sticky;
+  	float: left;
+}
+
+li a {
+	 position: sticky;
+ 	 display: block;
+ 	 color: white;
+ 	 text-align: center;
+ 	 padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li a:hover {
+	position: sticky;
+  	background-color: rgba(255,255,255,0.1);
+}
+.hdr{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 700px;
+}
+.hdr img{
+	align-content: center;
+}
+p{
+	font-size: 12px;
+}
+a{
+	font-family: Raleway;
+}
+
+body{
+	background-color: rgba(240,240,240,0.5)
+}
+.abt{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 700px;
+}
+.abt p{
+	font-size: 20px;
+}
+.skls{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 700px;
+}
+.skls p{
+	font-size: 20px;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	color: darkgrey;
+}
+.skls ol li{
+	margin-left: 125px;
+	text-align: center;
+	font-size: 15px;
+}
+.cntct{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 700px;
+}
+.cntct p{
+	font-size: 20px;
+}
+table{
+	margin-left: 60px;
+	font-size: 20px;
+	border: 2px solid black;
+	float: left;
+	padding: 30px;
+}
+.acdmc{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 700px;
+}
+.acdmc p{
+	font-size: 20px;
+}
+.prjct{
+	font-family: Raleway;
+	font-size: 50px;
+	text-align: center;
+	height: 800px;
+	margin-right: 50px;
+}
+.prjct table{
+	margin-top: 20px;
+	padding: 50px;
+}
+.prjct p{
+	font-size: 20px;
+}
