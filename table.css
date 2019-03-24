@@ -1,0 +1,10 @@
+.body{
+	
+}
+
+input[radio]{
+	margin: 10px;
+}
+.btn-danger:hover{
+	background-color: green;
+}
