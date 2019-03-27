@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bubbling</title>
+	<style type="text/css">
+		form{
+			border:2px solid green;
+			padding: 10px;
+		}
+		div{
+			border: 2px solid blue;
+			padding: 10px;
+		}
+		p{
+			border:2px solid red;
+			padding: 10px;
+		}
+		h1{
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<h1>Event bubbling</h1>
+	<form onclick="alert('form')">FORM TAG
+  		<div onclick="alert('div')">DIV TAG
+    		<p onclick="alert('p')">P TAG</p>
+  		</div>
+	</form>
+
+</body>
+</html>
