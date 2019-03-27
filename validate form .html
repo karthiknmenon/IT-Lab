@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="lab1.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript">
+		function valid(){
+			var name = document.forms["formz"]["userid"];
+			var pss= document.forms["formz"]["pwd"];
+			var rname = document.forms["formz"]["name"];
+			var adr = document.forms["formz"]["addr"];
+			var zip = document.forms["formz"]["ZC"];
+			var z = document.forms["formz"]["pwd"].value;
+			var u = document.forms["formz"]["userid"].value;
+			var n = document.forms["formz"]["name"].value;
+			var e = document.forms["formz"]["mail"];
+			var em = document.forms["formz"]["mail"].value;
+			var emr= em.includes("@",".com");
+			if (name.value == "")
+			{
+				window.alert("Please enter your name.");
+				name.focus();
+				return false;
+			}
+			if (u.length < 5) {
+				window.alert("Please enter your user id of minimum 5 characters.");
+				name.focus();
+				return false;
+			}
+			if (e.value == "") {
+				window.alert("Please enter your email");
+				e.focus();
+				return false;
+			}
+			if (!emr ) {
+				window.alert("Please enter a valid email");
+				e.focus();
+				return false;
+			}
+			if (n.length < 5) {
+				window.alert("Please enter your name of minimum 5 characters.");
+				rname.focus();
+				return false;
+			}
+			if (pss.value == "" )
+			{
+				window.alert("Please enter your password.");
+				pss.focus();
+				return false;
+			}
+			if (z.length < 8) {
+				window.alert("Please enter your password of minimum 8 characters.");
+				pss.focus();
+				return false;
+			}
+			if (rname.value =="")
+			{
+				window.alert("Please enter your real name.");
+				rname.focus();
+				return false;
+			}
+			if (adr.value =="")
+			{
+				window.alert("Please enter your address.");
+				adr.focus();
+				return false;
+			}
+			if (zip.value =="")
+			{
+				window.alert("Please enter your zip code.");
+				zip.focus();
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="cont">
+		<form name="formz" onsubmit="return valid()">
+			<h1 class="mt-5">Registration Form</h1>
+			<label for="userid" class="lbl">User Id:
+				<input name="userid" id="uid" type="text">
+			</label><br>
+			<label for="password" class="lbl">Password: 
+				<input name="pwd" id="psrd" type="password" >
+			</label><br>
+			<label for="name" class="lbl">Name:
+				<input name="name" id="name" type="text">
+			</label><br>
+			<label for="Address" class="lbl">Address:
+				<input name="Address" id="addr" type="text">
+			</label><br>
+			<label for="country" class="lbl">Country:
+				<select>
+					<option>Please select a country</option>
+					<option>A</option>
+					<option>B</option>
+					<option>C</option>
+				</select>
+			</label><br>
+			<label for="Zip Code">Zipcode:
+				<input name="ZC" id="zc" type="text">
+			</label><br>
+			<label for="mail">Email:
+				<input name="mail" type="text" id="mail">
+			</label><br>
+			<label for="sex">Sex:
+				MALE <input name="sex" id="male"type="radio">
+				FEMALE <input name="sex" id="male"type="radio">
+			</label><br>
+			<label for="lang">Language:
+				<input name="lang" id="eng"type="checkbox" checked>English
+				<input name="lang" id="NE"type="checkbox">Non English
+			</label><br>
+			<label for="textarea">About:
+				<textarea name="textarea" id="TA"rows="5" cols="40"></textarea>
+			</label><br>
+			<label for="submit" class="sub">
+				<input type="submit">
+			</label>
+		</form>
+	</div>
+</body>
+</html>

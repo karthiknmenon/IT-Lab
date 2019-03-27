@@ -1,0 +1,27 @@
+input[type=text]{
+	margin-left:24px;
+	padding-left: 5px;
+}
+
+.lbl{
+	margin-top: 5px;
+
+}
+.cont{
+	margin-left: 35%;
+}
+.sub{
+	margin-left: 17%
+}
+#zc{
+	margin-left: 10px
+}
+#addr{
+	margin-left: 10px
+}
+#psrd{
+	margin-left: 8px;
+}
+#mail{
+	margin-left: 24px;
+}
