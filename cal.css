@@ -1,0 +1,9 @@
+button{
+	font-size:30px;
+	background-color:lightgray;
+}
+button:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+table{
+	background-color:white;}

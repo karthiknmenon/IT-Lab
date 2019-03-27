@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="cal.css"">
+<<script type="text/javascript">
+    function dis(val) 
+         { 
+             document.getElementById("result").value+=val 
+         } 
+    function solve() 
+         { 
+             let x = document.getElementById("result").value 
+             let y = eval(x) 
+             document.getElementById("result").value = y 
+         } 
+</script>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>  
+      <center><h1>JS CALCULATOR</h1></center>
+      <center>
+        <table border="1" width="50" height="50"> 
+            <tr> 
+                <th colspan="4"><input type="text" placeholder="Answer" id="result"></th> 
+            </tr> 
+              
+            <tr> 
+                <td><button class="btn" value="1" onclick="dis('1')">1</button></td> 
+                <td><button class="btn" value="2" onclick="dis('2')">2</button></td> 
+                <td><button class="btn" value="3" onclick="dis('3')">3</button></td> 
+                <td><button class="btn" value="/" onclick="dis('/')">&nbsp/</button></td> 
+            </tr> 
+			<tr> 
+                <td><button class="btn" value="4" onclick="dis('4')">4</button></td> 
+                <td><button class="btn" value="5" onclick="dis('5')">5</button></td> 
+                <td><button class="btn" value="6" onclick="dis('6')">6</button></td> 
+                <td><button class="btn" value="*" onclick="dis('*')">*</button></td> 
+            </tr> 
+			<tr>
+                <td><button class="btn" value="7" onclick="dis('7')">7</button></td> 
+                <td><button class="btn" value="8" onclick="dis('8')">8</button></td> 
+                <td><button class="btn" value="9" onclick="dis('9')">9</button></td> 
+                <td><button class="btn" value="-" onclick="dis('-')">&nbsp-</button></td> 
+            </tr> 
+			<tr> 
+                <td></td> 
+ 		         <td><button class="btn" value="0" onclick="dis('0')">0</button></td> 
+                <td><button class="btn" value="+" onclick="dis('+')"> +</button></td> 
+                <td><button class="btn" value="=" onclick="solve()"> =</button></td> 
+            </tr> 
+		</table></center>
+    </body> 
+</html>
+
+	
