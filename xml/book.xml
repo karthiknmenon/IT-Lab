@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE info 
+[
+	<!ELEMENT info (bookid,bookname,author,edition,publisher)>
+	<!ELEMENT bookid (#PCDATA)>
+	<!ELEMENT bookname (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT edition (#PCDATA)>
+	<!ELEMENT publisher (#PCDATA)>
+]>
+<info>
+	<bookid>10112</bookid>
+	<bookname>Karthik Menon</bookname>
+	<author>9586976787</author>
+	<edition>menonk484@gmail.com</edition>
+	<publisher>20/05/1998</publisher>
+</info>
