@@ -15,20 +15,32 @@
     	<name>Karthik Menon</name>
     	<phone>9586976787</phone>
     	<email>menonk484@gmail.com</email>
-    	<dob>20/05/1998</dob>
+    	<date>
+    		<day>20</day>
+    		<month>05</month>
+    		<year>1998</year>
+    	</date>
     </info>
     <info>
     	<studentid>10113</studentid>
     	<name>Jim Thomas</name>
     	<phone>958612123</phone>
     	<email>jimt@gmail.com</email>
-    	<dob>21/05/1998</dob>
+    	<date>
+    		<day>21</day>
+    		<month>05</month>
+    		<year>1998</year>
+    	</date>
     </info>
     <info>
     	<studentid>10114</studentid>
     	<name>Kevin Thomas</name>
     	<phone>9586972327</phone>
     	<email>kevint@gmail.com</email>
-    	<dob>22/05/1998</dob>
+    	<date>
+    		<day>22</day>
+    		<month>05</month>
+    		<year>1998</year>
+    	</date>
     </info>
 </details>
