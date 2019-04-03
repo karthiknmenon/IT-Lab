@@ -1,0 +1,8 @@
+<!DOCTYPE info 
+[
+	<!ELEMENT info (studentid,name,phone,email,dob)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT dob (#PCDATA)?
+]>

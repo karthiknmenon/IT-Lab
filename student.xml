@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE info SYSTEM "student.dtd"> -->
+<!DOCTYPE info 
+[
+	<!ELEMENT info (studentid,name,phone,email,dob)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT dob (#PCDATA)>
+]>
+<info>
+	<studentid>10112</studentid>
+	<name>Karthik Menon</name>
+	<phone>9586976787</phone>
+	<email>menonk484@gmail.com</email>
+	<dob>20/05/1998</dob>
+</info>
