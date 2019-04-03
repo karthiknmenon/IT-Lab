@@ -2,16 +2,33 @@
 <!-- <!DOCTYPE info SYSTEM "student.dtd"> -->
 <!DOCTYPE info 
 [
-	<!ELEMENT info (studentid,name,phone,email,dob)>
+	<!ELEMENT details (info,studentid,name,phone,email,dob)>
+	<!ELEMENT info (#PCDATA)>
 	<!ELEMENT name (#PCDATA)>
 	<!ELEMENT phone (#PCDATA)>
 	<!ELEMENT email (#PCDATA)>
 	<!ELEMENT dob (#PCDATA)>
 ]>
-<info>
-	<studentid>10112</studentid>
-	<name>Karthik Menon</name>
-	<phone>9586976787</phone>
-	<email>menonk484@gmail.com</email>
-	<dob>20/05/1998</dob>
-</info>
+<details>
+    <info>
+    	<studentid>10112</studentid>
+    	<name>Karthik Menon</name>
+    	<phone>9586976787</phone>
+    	<email>menonk484@gmail.com</email>
+    	<dob>20/05/1998</dob>
+    </info>
+    <info>
+    	<studentid>10113</studentid>
+    	<name>Jim Thomas</name>
+    	<phone>958612123</phone>
+    	<email>jimt@gmail.com</email>
+    	<dob>21/05/1998</dob>
+    </info>
+    <info>
+    	<studentid>10114</studentid>
+    	<name>Kevin Thomas</name>
+    	<phone>9586972327</phone>
+    	<email>kevint@gmail.com</email>
+    	<dob>22/05/1998</dob>
+    </info>
+</details>

@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE info 
 [
-	<!ELEMENT info (bookid,bookname,author,edition,publisher)>
+	<!ELEMENT details (bookid,bookname,author,edition,publisher)>
+	<!ELEMENT info (#PCDATA)>
 	<!ELEMENT bookid (#PCDATA)>
 	<!ELEMENT bookname (#PCDATA)>
 	<!ELEMENT author (#PCDATA)>
 	<!ELEMENT edition (#PCDATA)>
 	<!ELEMENT publisher (#PCDATA)>
 ]>
-<info>
-	<bookid>10112</bookid>
-	<bookname>Karthik Menon</bookname>
-	<author>9586976787</author>
-	<edition>menonk484@gmail.com</edition>
-	<publisher>20/05/1998</publisher>
-</info>
+<details> 
+	<info>
+		<bookid>10122</bookid>
+		<bookname>C</bookname>
+		<author>KM</author>
+		<edition>3rd edition</edition>
+		<publisher>MC Graw Hill</publisher>
+	</info>
+		<info>
+		<bookid>10132</bookid>
+		<bookname>C++</bookname>
+		<author>JT</author>
+		<edition>menonk484@gmail.com</edition>
+		<publisher>MC Graw Hill</publisher>
+	</info>
+		<info>
+		<bookid>10142</bookid>
+		<bookname>Python</bookname>
+		<author>KT</author>
+		<edition>menonk484@gmail.com</edition>
+		<publisher>MC Graw Hill</publisher>
+	</info>
+</details>
