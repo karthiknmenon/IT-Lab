@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exam</title>
+	<link rel="stylesheet" type="text/css" href="exam.css">
+</head>
+<body>
+	<h1>Heading</h1>
+	<ul style="list-style-type: circle;">
+		<li>First element</li>
+		<ol type="a">
+			<li>First ordered element</li>
+			<li>Second ordered element</li>
+		</ol>
+		<li>Second element</li>
+		<ul>
+			<li>First nested unordered</li>
+		</ul>
+		<li>Third element</li>
+	</ul>
+	<table >
+		<caption>Just a table</caption>
+		<thead>
+			<tr>
+				<th>First column</th>
+				<th>Second column</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<th>First column foot</th>
+				<th>second column foot</th>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>1.2</td>
+			</tr>
+			<tr>
+				<td colspan="2">Column</td>
+			</tr>
+			<tr rowspan="3">
+				<td >Row</td>
+			</tr>
+			<tr>
+				<td>Data</td>
+			</tr>
+		</tbody>
+	</table><br>
+	<table>
+	<form method="GET" action="4.html" target="_blank" autocomplete="on">
+		<fieldset>
+			<legend>One</legend>
+			<tr>
+			<td><label for="uname" >Username: </td>
+				<td><input  type="text" name="uname" required autofocus="on" list="uname" size="20"></td>
+				<datalist id="uname">
+					<option value="Karthik">
+						<option value="Jim">
+				</datalist>
+			</label><br>
+			</tr>
+			<tr>
+			 <td><label for="pswd">Password:</td>
+				<td><input type="Password" name="pswd" required size="20"></td>
+			</label><br>
+			</tr>
+			<input type="submit" name="submit">
+			</label>
+			<label for="rst">
+				<input type="reset" name="rst">
+			</label>
+		</fieldset>
+		<label for="raw">Comments<br>
+			<textarea name="raw" rows="5" cols="100">Enter comments...</textarea>
+		</label>
+		<fieldset>
+			<legend>Random</legend>
+			<label for="date">Enter date:
+				<input type="date" name="date">
+			</label><br>
+			<label for="clr">Choose a color
+				<input type="color" name="clr">
+			</label><br>
+			<label for="dt">Input:
+				<input type="datetime-local" name="dt">
+			</label><br>
+			<label for="mnt">Month:
+				<input type="month" name="mnth">
+			</label><br>
+			<label for="review">Review
+				0 <input type="range" name="review" min="0" max="10">10
+			</label>
+			<label for="gsearch">Gsearch:
+				<input type="search" name="gsearch" placeholder="enter search">
+			</label><br>
+			URL:<input type="url" name="url">
+				<input type="submit" name="submit">
+			</label>
+			<label for="rst">
+				<input type="reset" name="rst">
+			</label>
+		</fieldset>
+	</form>
+</body>
+</html>

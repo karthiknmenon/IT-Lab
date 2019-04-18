@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test3.xsl"?> 
+<!DOCTYPE details[
+	<!ELEMENT details (name,age,id)>
+	<!ELEMENT info (#PCDATA)>
+	<!ELEMENT  name (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT empid (#PCDATA)>
+]>
+<details>
+	<info>
+		<name>karthik</name>
+		<age>13</age>
+		<empid>a42</empid>
+	</info>
+</details>
